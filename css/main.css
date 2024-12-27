@@ -1,10 +1,10 @@
-/* Latest update [dd.mm.yyyy]: 13.12.2024 */
+/* Latest update [dd.mm.yyyy]: 27.12.2024 */
 * {
     font-size: 0px;
     box-sizing: border-box;
     font-family: "Monteserat", Arial, sans-serif;
     scrollbar-width: auto !important;
-    scrollbar-color: #99042fff #ffffff00 !important;
+    scrollbar-color: #8afe7aff #ffffff00 !important;
     letter-spacing: 1px;
     line-height: 16px;
 }
@@ -15,21 +15,11 @@ body {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
-    background:
-        radial-gradient(50% 50% at 100% 0, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
-            #0000 96%),
-        radial-gradient(50% 50% at 0 100%, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
-            #0000 96%),
-        radial-gradient(50% 50%, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
-            #0000 96%),
-        radial-gradient(50% 50%, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
-            #0000 96%) 32px 32px;
-    background-size: 64px 64px;
-    background-color: #45020e;
+    background-image: url("file:///C:/Users/schnu/source/repos/schnuribroccoli.github.io/imgs/thumb/broccoli.png");
+    /*background-image: url("schnuri.com/imgs/thumb/broccoli.png");*/
+    background-repeat: repeat;
+    background-size: 128px 128px;
+    background-color: #0a5c00;
 }
 
 .OuterBody {
@@ -47,7 +37,7 @@ section article {
     display: flex;
     color: #FFFFFF;
     text-align: center;
-    background-color: #000000;
+    background-color: #0a5c00;
     border-radius: 32px;
     margin: 0 auto;
     padding: 16px;
@@ -65,6 +55,7 @@ p {
     text-align: center;
     color: rgb(255, 255, 255);
     line-height: 1.5;
+    margin: auto;
 }
 
 a {
@@ -88,6 +79,11 @@ a {
     margin: 4px 0 16px;
 }
 
+.LinkText {
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .HeaderOne {
     margin: 16px;
     font-weight: 700;
@@ -101,10 +97,10 @@ a {
 
 .Link {
     overflow: hidden;
-    border: 2px solid rgb(153, 4, 47);
-    box-shadow: rgb(153, 4, 47) 8px 8px 0px 0px;
+    border: 2px solid rgb(138, 254, 122);
+    box-shadow: rgb(138, 254, 122) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(69, 2, 14);
+    background-color: rgb(15, 133, 0);
     width: calc(100% - 12px);
     border-radius: 8px;
     margin: 0 0 16px;
@@ -120,10 +116,10 @@ a {
 }
 
 .Link:hover {
-    border: 2px solid rgb(69, 2, 14);
-    box-shadow: rgb(69, 2, 14) 8px 8px 0px 0px;
+    border: 2px solid rgb(15, 133, 0);
+    box-shadow: rgb(15, 133, 0) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(153, 4, 47);
+    background-color: rgb(138, 254, 122);
 }
 
 .Icons {
@@ -250,11 +246,16 @@ a {
 }
 
 footer {
-    color: #808080;
+    color: #ffffff;
     background-color: transparent;
     font-weight: 700;
     text-align: center;
     font-size: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin-bottom: 46px;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
