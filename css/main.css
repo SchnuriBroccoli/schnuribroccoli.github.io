@@ -1,4 +1,4 @@
-/* Latest update [dd.mm.yyyy]: 28.12.2024 */
+/* Latest update [dd.mm.yyyy]: 29.12.2024 */
 * {
     font-size: 0px;
     box-sizing: border-box;
@@ -78,11 +78,6 @@ a {
     margin: 4px 0 16px;
 }
 
-.LinkText {
-    font-weight: 700;
-    font-size: 20px;
-}
-
 .HeaderOne {
     margin: 16px;
     font-weight: 700;
@@ -92,6 +87,41 @@ a {
     margin: 16px;
     font-weight: 700;
     letter-spacing: 0.4px;
+}
+
+
+.LinkText {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.SFXText {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.SFX {
+    overflow: hidden;
+    border: 2px solid rgb(138, 254, 122);
+    box-shadow: rgb(138, 254, 122) 8px 8px 0px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 133, 0);
+    width: calc(100% - 12px);
+    border-radius: 8px;
+    margin: 0 0 16px;
+    padding: 8px 20px;
+    display: flex;
+    padding-right: 44px;
+    padding-left: 44px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.SFX:hover {
+    border: 2px solid rgb(15, 133, 0);
+    box-shadow: rgb(15, 133, 0) 8px 8px 0px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 254, 122);
 }
 
 .Link {
