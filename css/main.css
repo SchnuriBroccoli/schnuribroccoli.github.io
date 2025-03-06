@@ -1,6 +1,6 @@
 /* Latest update [dd.mm.yyyy]: 29.12.2024 */
 * {
-    font-size: 0px;
+
     box-sizing: border-box;
     font-family: "Monteserat", Arial, sans-serif;
     scrollbar-width: auto !important;
@@ -58,9 +58,14 @@ p {
 }
 
 a {
-    color: transparent;
+    color: white;
     background-color: transparent;
     cursor: pointer;
+}
+
+h2 {
+    text-align: left;
+    line-height: 1;
 }
 
 .Tag {
