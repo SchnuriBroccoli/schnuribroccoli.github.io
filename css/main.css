@@ -86,18 +86,26 @@ h2 {
 .HeaderOne {
     margin: 16px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 .HeaderTwo {
     margin: 16px;
     font-weight: 700;
     letter-spacing: 0.4px;
+    font-size: 16px;
 }
 
 
 .LinkText {
     font-weight: 700;
     font-size: 20px;
+}
+
+.LinkTextInsideTheNightmare {
+    font-weight: 700;
+    font-size: 20px;
+    color: #8c9eff;
 }
 
 .SFXText {
@@ -148,7 +156,32 @@ h2 {
     text-align: center;
     line-height: 1.5;
 }
+.LinkInsideTheNightmare {
+    overflow: hidden;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: rgb(255, 0, 0) 8px 8px 0px 0px;
+    color: black;
+    background-color: rgb(253, 229, 98);
+    width: calc(100% - 12px);
+    border-radius: 8px;
+    margin: 0 0 16px;
+    padding: 16px 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 44px;
+    padding-left: 44px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
 
+.LinkInsideTheNightmare:hover {
+    border: 2px solid rgb(253, 229, 98);
+    box-shadow: rgb(253, 229, 98) 8px 8px 0px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
 .Link:hover {
     border: 2px solid rgb(15, 133, 0);
     box-shadow: rgb(15, 133, 0) 8px 8px 0px 0px;
